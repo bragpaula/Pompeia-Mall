@@ -1,0 +1,477 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+h2{
+    color: #0A3F7B;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+h2 .highlight{
+    font-weight: 700;
+}
+
+/* header */
+
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+.header-content{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-menu{
+    display: flex;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.nav-menu .btn-contato{
+    border-radius: 10px;
+    background: #0A3F7B;
+    width: 190px;
+    height: 38px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hero */
+
+.hero{
+    height: 700px;
+    background-image: url(img/image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-overlay p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.hero-overlay .hero-buttons{
+    display: flex;
+    gap: 30px;
+}
+.hero-buttons .btn{
+    border-radius: 10px;
+    background: #C9A660;
+    width: 235px;
+    height: 45px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* seja um lojista */
+
+.lojista .container{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+.lojista{
+    display: flex;
+    justify-content: center;
+}
+.banner-mobile{
+    display: none;
+}
+
+/* diferenciais */
+
+.diferenciais{
+    width: 100%;
+    height: 200px;
+    background: #0A3F7B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.diferenciais .container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+.diferenciais h2{
+    color: #F5F5F5;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    width: 186px;
+}
+.diferenciais .tags span{
+    color: #F5F5F5;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #C9A660;
+    padding: 15px 20px;
+}
+.diferenciais .tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    column-gap: 20px;
+    justify-content: right;
+    align-items: center;
+    max-width: 800px;
+}
+
+/* lojas */
+.lojas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.lojas .container{
+    width: 1000px;
+    margin: 80px 0;
+}
+.grid-lojas img{
+    width: 315px;
+    height: 240px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(10, 63, 123, 0.50);
+}
+.grid-lojas{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* mapa */
+
+.mapa .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+.mapa iframe{
+    width: 750px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0A3F7B;
+}
+footer .container{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.footer-content .cima{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menus nav{
+    display: flex;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+.footer-menus a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.social h3{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+}
+.social .icons{
+    display: flex;
+    gap: 16px;
+}
+.meio{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 30px;
+}
+.footer-info{
+    width: 330px;
+}
+.footer-info h3{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer-info p{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-bottom p{
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.footer-bottom a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.80);
+    font-weight: 800;
+}
+
+/* hovers */
+
+/* efeito de hover nas imagens das lojas */
+.grid-lojas img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.grid-lojas img:hover {
+    filter: grayscale(0%);
+}
+
+.hero-buttons .btn {
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.hero-buttons .btn:hover {
+    background: #b38e40; /* tom mais escuro */
+    transform: scale(1.05);
+}
+
+.nav-menu .btn-contato {
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.nav-menu .btn-contato:hover {
+    background: #062c56; /* tom mais escuro de azul */
+    transform: scale(1.05);
+}
+
+.nav-menu a:not(.btn-contato) {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:not(.btn-contato):hover {
+    color: #0A3F7B;
+}
+
+.nav-menu a:not(.btn-contato)::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: #0A3F7B;
+    left: 0;
+    bottom: -4px;
+    transition: width 0.3s ease;
+}
+
+.nav-menu a:not(.btn-contato):hover::after {
+    width: 100%;
+}
+
+.footer-menus a {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.footer-menus a:hover {
+    color: #C9A660; /* dourado claro no hover */
+}
+
+/* Linha discreta no hover */
+.footer-menus a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background: #C9A660;
+    left: 0;
+    bottom: -4px;
+    transition: width 0.3s ease;
+}
+
+.footer-menus a:hover::after {
+    width: 100%;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 500px) {
+  .container{
+    width: 330px;
+  }
+  .header-content nav{
+    display: none;
+  }
+  .hero-overlay p{
+    font-size: 14px;
+  }
+  .hero-overlay img{
+    max-width: 280px;
+  }
+  .hero-buttons .btn{
+    width: 160px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .hero-overlay .hero-buttons{
+    gap: 10px;
+  }
+  h2{
+    font-size: 14px;
+  }
+
+  /* SEJA UM LOJISTA */
+  .banner-desk{
+    display: none;
+  }
+  .banner-mobile{
+    display: block;
+  }
+  .lojista .container{
+    padding: 50px 0;
+  }
+
+  /* DIFERENCIAIS */
+
+  .diferenciais .container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .diferenciais h2{
+    font-size: 16px;
+    width: 330px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .diferenciais .tags span{
+    font-size: 9px;
+    padding: 6px 12px;
+  }
+  .diferenciais .tags{
+    width: 600px;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+  .scroll{
+    overflow-x: scroll;
+    width: 330px;
+  }
+  
+  .grid-lojas img{
+    width: 160px;
+    height: 125px;
+    padding: 15px 15px;
+    filter: grayscale(0);
+  }
+  .grid-lojas{
+    justify-content: center;
+    gap: 10px;
+  }
+  .lojas .container{
+    width: 330px;
+  }
+  .mapa iframe{
+    width: 330px;
+    height: 280px;
+  }
+  .mapa{
+    display: flex;
+    justify-content: center;
+  }
+  .mapa .container{
+    padding: 50px 0;
+  }
+  
+  footer .container{
+    width: 330px;
+  }
+  .footer-menus a{
+    font-size: 10px;
+  }
+  .footer-menus nav{
+    gap: 10px;
+  }
+  .social h3{
+    font-size: 14px;
+  }
+  .footer-info h3{
+    font-size: 14px;
+  }
+  .footer-info p{
+    font-size: 12px;
+  }
+  footer .meio{
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+  }
+  .footer-bottom p{
+    font-size: 8px;
+  }
+}
